@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.techtribeservices.androidplayground.graphics.CanvasBasics
 import com.techtribeservices.androidplayground.graphics.GraphicModifiers
+import com.techtribeservices.androidplayground.graphics.Shapes
 import com.techtribeservices.androidplayground.ui.theme.AndroidPlaygroundTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +23,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AndroidPlaygroundTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    GraphicModifiers()
+                    Shapes()
                 }
             }
         }
