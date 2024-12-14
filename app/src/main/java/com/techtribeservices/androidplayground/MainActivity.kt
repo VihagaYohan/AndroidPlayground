@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.techtribeservices.androidplayground.charts.LineChart
 import com.techtribeservices.androidplayground.graphics.CanvasBasics
 import com.techtribeservices.androidplayground.graphics.GraphicModifiers
 import com.techtribeservices.androidplayground.graphics.Shapes
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AndroidPlaygroundTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Shapes()
+                    LineChart()
                 }
             }
         }
