@@ -42,7 +42,7 @@ fun LineChart() {
         ChartData(x = "SLK", y = 700),
         ChartData(x = "PAK", y = 50)
     )
-
+    // line chart
     Box(
         modifier = Modifier
             .background(Purple40)
